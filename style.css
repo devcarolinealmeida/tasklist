@@ -41,7 +41,7 @@ body {
 }
 
 .new-task-container input {
-
+    width: 70%;
     font-size: 1rem;
     border: 2px solid #d1d3d4;
     border-radius: 5px;
@@ -50,7 +50,7 @@ body {
 }
 
 .new-task-button {
-    
+    width: 30%;
     font-size: 1rem;
     font-weight: 500;
     height: 100%;
@@ -118,7 +118,7 @@ body {
 /* smartphones */
 @media screen and (max-width:414px) {
     .container {
-        width: 20%;
+
         min-width: 20em;
         padding: 1.5em 1em;
     }
@@ -130,7 +130,6 @@ body {
     }
     .new-task-button {
         font-size: .7rem;
-        width: 80%;
         padding: .7em;
     } 
     .tasks-container {
